@@ -1,12 +1,11 @@
-a = int(input())
-for i in range(a):
-    input()
-    c =[]
-    b = int(input())
-    for j in range(b):
-        d = int(input)
-        c.append(d)
-    if sum(c) % b == 0:
-        print("YES")
-    else:
-        print("NO")    
+import sys
+t=int(sys.stdin.readline())
+ 
+for _ in range (t):
+    br=sys.stdin.readline()
+    studentN=int(sys.stdin.readline())
+    tmp=[]
+    for i in range(studentN):
+        tmp.append(int(sys.stdin.readline()))
+    if sum(tmp)%studentN==0: print("YES")
+    else : print("NO")  
